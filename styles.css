@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+div.logo {
+  /*overflow: hidden;*/
+}
+
+div.row {
+  width: 100%;
+  height: 12.5vw;
+}
+
+div.segment {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 6.25vw solid transparent;
+  border-left: 6.25vw solid transparent;
+  border-bottom: 6.25vw solid transparent;
+  transform-origin: center right;
+  transition-property: border-color;
+  transition-duration: 0.75s;
+}
+
+div.colour {
+  border-left: 6.25vw solid blue;
+}
+
+
+div.hidden {
+  display: none;
+}
